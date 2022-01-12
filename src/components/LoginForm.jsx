@@ -22,8 +22,12 @@ const FormGroup = styled.div`
 
 const Hint = styled.div`
   background-color: lightblue;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding: 5px;
-  margin-bottom: 10px;
+  margin: 5px 0 10px 0;
+  font-size: x-small;
+  font-style: italic;
 `
 
 const Logo = styled.img`
